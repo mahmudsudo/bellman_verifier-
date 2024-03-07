@@ -3,7 +3,7 @@ Groth16 zkSNARK bellman proof verifier
 
 Verify Groth16 proofs generated from bellman, using cloudflare/bn256 (used by go-ethereum) for the Pairing.
 
-Usage
+# Usage
 ``
 public, err := ParsePublicRaw(publicJson)
 require.Nil(t, err)
